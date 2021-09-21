@@ -1,0 +1,34 @@
+/*
+ Theme Name:   Astra Child
+ Theme URI:    http://localhost/minmarie-portfolio/
+ Description:  a astra child theme
+ Author:       Marie Sohn
+ Author URI:   http://localhost/minmarie-portfolio/
+ Template:     astra
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  astrachild
+*/
+
+.ast-theme-transparent-header #ast-desktop-header > [CLASS*="-header-wrap"]:nth-last-child(2) > [CLASS*="-header-bar"] {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    max-height: 85px;
+    box-shadow: 0px 5px 5px 0px #1111116b;
+}
+.ast-theme-transparent-header .main-header-menu .menu-link {
+    color: rgb(31, 31, 31) !important;
+}
+.ast-theme-transparent-header .main-header-menu .menu-link:hover{
+    color: #ff5e14 !important;
+}
+.ast-theme-transparent-header .main-header-menu .menu-link:active{
+    background-color: #ff5e14 !important;
+}
+.elementor-1895 .elementor-element.elementor-element-3b0bd34 > .elementor-element-populated {
+    margin-top: 45px;
+}
+
